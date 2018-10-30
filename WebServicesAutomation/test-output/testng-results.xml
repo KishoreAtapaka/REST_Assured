@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61761" started-at="2018-10-17T10:03:02Z" finished-at="2018-10-17T10:04:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="61761" started-at="2018-10-17T10:03:02Z" finished-at="2018-10-17T10:04:03Z">
+      <class name="testNg_serviceNow.WebAutomation">
+        <test-method status="PASS" signature="authenticateUser()[pri:0, instance:testNg_serviceNow.WebAutomation@4671e53b]" name="authenticateUser" is-config="true" duration-ms="270" started-at="2018-10-17T10:03:01Z" finished-at="2018-10-17T10:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticateUser -->
+        <test-method status="PASS" signature="checkInWeb()[pri:0, instance:testNg_serviceNow.WebAutomation@4671e53b]" name="checkInWeb" duration-ms="56995" started-at="2018-10-17T10:03:06Z" depends-on-methods="testNg_serviceNow.CreateProblem.createProblem" finished-at="2018-10-17T10:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInWeb -->
+      </class> <!-- testNg_serviceNow.WebAutomation -->
+      <class name="testNg_serviceNow.CreateProblem">
+        <test-method status="PASS" signature="createProblem()[pri:0, instance:testNg_serviceNow.CreateProblem@2db7a79b]" name="createProblem" duration-ms="4749" started-at="2018-10-17T10:03:02Z" finished-at="2018-10-17T10:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProblem -->
+      </class> <!-- testNg_serviceNow.CreateProblem -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
